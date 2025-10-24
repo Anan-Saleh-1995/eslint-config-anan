@@ -9,6 +9,14 @@
     "stylistic",
     "rules"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anan-saleh-1995/eslint-config-anan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anan-saleh-1995/eslint-config-anan/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/eslint-config-anan#readme",
   "author": "Anan",
   "license": "MIT",
   "type": "module",
