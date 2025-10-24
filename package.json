@@ -1,0 +1,20 @@
+{
+  "name": "eslint-config-anan",
+  "version": "1.0.4",
+  "description": "Custom ESLint stylistic rules for my projects",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "stylistic",
+    "rules"
+  ],
+  "author": "Anan",
+  "license": "MIT",
+  "type": "module",
+  "types": "index.d.ts",
+  "peerDependencies": {
+    "eslint": ">=9",
+    "@stylistic/eslint-plugin": ">=2"
+  }
+}
