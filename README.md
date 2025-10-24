@@ -8,29 +8,3 @@
 
 A shareable ESLint flat config with my preferred stylistic rules, React, TypeScript, and hooks best practices.  
 This package lets you enforce a consistent code style across your projects.
-
----
-
-## Installation
-
-Install the package along with ESLint:
-
-```bash
-npm install --save-dev eslint eslint-config-anan
-
-## Usage
-
-Create an `eslint.config.js` file in the root of your project:
-
-```js
-import eslintConfigAnan from "eslint-config-anan";
-
-export default [
-  ...eslintConfigAnan,
-  {
-    files: ["**/*.{ts,tsx}"],
-    rules: {
-      // You can add project-specific overrides here
-    },
-  },
-];
